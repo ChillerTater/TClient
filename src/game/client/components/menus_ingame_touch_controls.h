@@ -6,7 +6,7 @@
 
 #include <memory>
 
-#undef IGNORE
+// #undef IGNORE
 
 class CMenusIngameTouchControls : public CComponentInterfaces
 {

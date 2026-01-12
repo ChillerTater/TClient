@@ -8,6 +8,11 @@
 #include <stdbool.h>
 
 #ifdef _WIN32
+
+#if !defined(WIN32_LEAN_AND_MEAN)
+#define WIN32_LEAN_AND_MEAN
+#endif
+
 	#include <windows.h>
 #else
 	#include <stdint.h>
