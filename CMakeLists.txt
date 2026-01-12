@@ -2279,8 +2279,6 @@ set_src(ENGINE_SHARED GLOB_RECURSE src/engine/shared
   websockets.h
 )
 set_src(ENGINE_EXTERNAL GLOB src/engine/external
-  mumble.cpp
-  mumble.h
   regex.cpp
   regex.h
   spt.cpp
@@ -2591,8 +2589,6 @@ if(CLIENT)
     components/tclient/menus_tclient.cpp
     components/tclient/mod.cpp
     components/tclient/mod.h
-    components/tclient/mumble.cpp
-    components/tclient/mumble.h
     components/tclient/outlines.cpp
     components/tclient/outlines.h
     components/tclient/pet.cpp
